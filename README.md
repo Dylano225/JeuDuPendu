@@ -76,7 +76,7 @@ formulaire.addEventListener("submit",(e)=>{
   }
   
   else if (nb_vies === 0){
-    mes.textContent = "💀 Dommage, vous avez perdu, le mot était" + mot_mystere;
+    mes.textContent = "💀 Dommage, vous avez perdu, le mot était " + mot_mystere;
     formulaire.querySelector("input[type='submit']").disabled = true
   }
 })
